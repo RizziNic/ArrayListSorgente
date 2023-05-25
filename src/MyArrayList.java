@@ -65,4 +65,21 @@ public class MyArrayList<T> {
     }
 
 
+    public void clear(){
+        System.out.println(Arrays.toString(a));
+        for (int i=0; i<a.length;i++){
+            a[i] = 0;
+        }
+        System.out.println(Arrays.toString(a));
+    }
+
+    public void clone1(){
+        int b[] = new int[a.length];
+
+        for (int i=0; i<a.length;i++){
+            b[i] += a[i];
+        }
+        //System.out.print(Arrays.toString(b));
+    }
+
 }
