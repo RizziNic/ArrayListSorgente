@@ -5,6 +5,6 @@ public class Main {
         MyArrayList<Integer> lista = new MyArrayList<>();
 
         lista.add(1, 5);
-        lista.get(1);
+        lista.get(2);
     }
 }
